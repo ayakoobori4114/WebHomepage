@@ -1,0 +1,102 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#login-form input{
+  background-color: transparent;
+  border: none;
+  border-bottom:  3px solid white;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  width: 480px;
+} 
+
+#todo-form {
+  position: relative;
+  bottom: 140px;
+}
+
+#todo-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom:  3px solid white;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  width: 400px;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#login-btn {
+  display: none;
+}
+
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+body h2 {
+  font-size: 110px;
+  color: whitesmoke;
+  position: relative;
+  bottom: 40px;
+}
+
+body h1 {
+  color: whitesmoke;
+  font-size: 50px;
+  position: relative;
+  bottom: 150px;
+}
+
+body h4 {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  bottom: 160px;
+}
+
+.fade-in-box{
+  -webkit-animation: fadein 4s;
+}
+
+@-webkit-keyframes fadein { /* wetkit 크롬에 사용*/
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} /* fadein animation from 0~ 1 4second*/
+
+#quote span{
+  color: white;
+}
+
+#weather span {
+  color: orange;
+}
